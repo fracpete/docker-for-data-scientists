@@ -10,7 +10,7 @@ revert to using docker to remove them again:
 * the following docker command will map the current directory to `/workspace`:
 
 ```
-docker run --rm -v `pwd`:/workspace -it bash:5.1.8
+docker run --rm -v `pwd`:/workspace -it bash:5.2.32
 ```
   
 * change into `/workspace` and remove all files/dirs (or just the files that need removing):
